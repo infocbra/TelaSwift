@@ -19,6 +19,7 @@ class ButtonDefault: UIButton {
     
     private func initDefault(botao: String) {
         self.setTitle(botao, for: .normal)
+        self.backgroundColor = .buttonBackGroundColor
         self.layer.cornerRadius = 14
         self.translatesAutoresizingMaskIntoConstraints = false
     }

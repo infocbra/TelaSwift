@@ -12,7 +12,12 @@ extension UIColor {
     static var viewBackGroundColor: UIColor {
         UIColor(named: "viewBackGroundColor") ?? .white
     }
-    
+    static var viewBackGroundColor2: UIColor {
+        UIColor(named: "viewBackGroundColor2") ?? .white
+    }
+    static var viewBackGroundColor3: UIColor {
+        UIColor(named: "viewBackGroundColor3") ?? .white
+    }
     static var buttonBackGroundColor: UIColor {
         UIColor(named: "buttonBackGroundColor") ?? .green
     }

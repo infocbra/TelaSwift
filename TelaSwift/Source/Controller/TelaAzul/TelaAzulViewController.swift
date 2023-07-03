@@ -6,3 +6,33 @@
 //
 
 import Foundation
+import UIKit
+
+class TelaAzulViewController: UIViewController {
+    
+    var onTelaVerdeTap: (() -> Void)?
+    
+    
+    
+    lazy var TelaAzul: TelaAzulView = {
+        let TelaAzul = TelaAzulView()
+        TelaAzul.onTelaVerdeTap = {
+            self.onTelaVerdeTap?()
+        }
+        return TelaAzul
+    }()
+    
+       override func loadView(){
+           self.view = TelaAzul
+       }
+       
+    // é executado quando está carregando
+       override func viewDidLoad() {
+           super.viewDidLoad()
+        self.title = "Tela Azul"
+           
+           self.navigationController?.navigationBar.prefersLargeTitles=true
+
+       }
+
+}

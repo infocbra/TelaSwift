@@ -26,6 +26,10 @@
 		C53B954F2A52FA6D00E1C19F /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B954E2A52FA6D00E1C19F /* ButtonDefault.swift */; };
 		C53B95522A52FABD00E1C19F /* UIcolor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95512A52FABD00E1C19F /* UIcolor+.swift */; };
 		C53B95542A52FB2800E1C19F /* ViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95532A52FB2800E1C19F /* ViewDefault.swift */; };
+		C53B95562A52FF7000E1C19F /* TelaAzulCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95552A52FF7000E1C19F /* TelaAzulCoordinator.swift */; };
+		C53B95582A52FF8700E1C19F /* TelaVerdeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95572A52FF8700E1C19F /* TelaVerdeCoordinator.swift */; };
+		C53B955A2A52FF9700E1C19F /* TelaVermelhaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95592A52FF9700E1C19F /* TelaVermelhaCoordinator.swift */; };
+		C53B955C2A52FFB800E1C19F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B955B2A52FFB800E1C19F /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		C53B954E2A52FA6D00E1C19F /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
 		C53B95512A52FABD00E1C19F /* UIcolor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor+.swift"; sourceTree = "<group>"; };
 		C53B95532A52FB2800E1C19F /* ViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDefault.swift; sourceTree = "<group>"; };
+		C53B95552A52FF7000E1C19F /* TelaAzulCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAzulCoordinator.swift; sourceTree = "<group>"; };
+		C53B95572A52FF8700E1C19F /* TelaVerdeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVerdeCoordinator.swift; sourceTree = "<group>"; };
+		C53B95592A52FF9700E1C19F /* TelaVermelhaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVermelhaCoordinator.swift; sourceTree = "<group>"; };
+		C53B955B2A52FFB800E1C19F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,7 @@
 		C53B95062A52F23F00E1C19F /* TelaSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C53B95182A52F24300E1C19F /* Info.plist */,
 				C53B953B2A52F40B00E1C19F /* Source */,
 				C53B953A2A52F3E900E1C19F /* Resourse */,
 			);
@@ -151,7 +160,6 @@
 				C53B950D2A52F23F00E1C19F /* Main.storyboard */,
 				C53B95132A52F24300E1C19F /* Assets.xcassets */,
 				C53B95152A52F24300E1C19F /* LaunchScreen.storyboard */,
-				C53B95182A52F24300E1C19F /* Info.plist */,
 				C53B95102A52F23F00E1C19F /* TelaSwift.xcdatamodeld */,
 			);
 			path = Resourse;
@@ -181,6 +189,10 @@
 		C53B953D2A52F44F00E1C19F /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				C53B95552A52FF7000E1C19F /* TelaAzulCoordinator.swift */,
+				C53B95572A52FF8700E1C19F /* TelaVerdeCoordinator.swift */,
+				C53B95592A52FF9700E1C19F /* TelaVermelhaCoordinator.swift */,
+				C53B955B2A52FFB800E1C19F /* Coordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -360,14 +372,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53B95562A52FF7000E1C19F /* TelaAzulCoordinator.swift in Sources */,
 				C53B950C2A52F23F00E1C19F /* ViewController.swift in Sources */,
 				C53B95522A52FABD00E1C19F /* UIcolor+.swift in Sources */,
 				C53B954A2A52F54900E1C19F /* TelaVermelhaView.swift in Sources */,
 				C53B95122A52F23F00E1C19F /* TelaSwift.xcdatamodeld in Sources */,
 				C53B954F2A52FA6D00E1C19F /* ButtonDefault.swift in Sources */,
+				C53B955A2A52FF9700E1C19F /* TelaVermelhaCoordinator.swift in Sources */,
 				C53B95442A52F50700E1C19F /* TelaAzulViewController.swift in Sources */,
 				C53B95542A52FB2800E1C19F /* ViewDefault.swift in Sources */,
 				C53B95482A52F53600E1C19F /* TelaVerdeViewController.swift in Sources */,
+				C53B955C2A52FFB800E1C19F /* Coordinator.swift in Sources */,
+				C53B95582A52FF8700E1C19F /* TelaVerdeCoordinator.swift in Sources */,
 				C53B95082A52F23F00E1C19F /* AppDelegate.swift in Sources */,
 				C53B954C2A52F56600E1C19F /* TelaVermelhaViewController.swift in Sources */,
 				C53B95422A52F4ED00E1C19F /* TelaAzulView.swift in Sources */,
