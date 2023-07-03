@@ -17,6 +17,15 @@
 		C53B95222A52F24300E1C19F /* TelaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95212A52F24300E1C19F /* TelaSwiftTests.swift */; };
 		C53B952C2A52F24300E1C19F /* TelaSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B952B2A52F24300E1C19F /* TelaSwiftUITests.swift */; };
 		C53B952E2A52F24300E1C19F /* TelaSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B952D2A52F24300E1C19F /* TelaSwiftUITestsLaunchTests.swift */; };
+		C53B95422A52F4ED00E1C19F /* TelaAzulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95412A52F4ED00E1C19F /* TelaAzulView.swift */; };
+		C53B95442A52F50700E1C19F /* TelaAzulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95432A52F50700E1C19F /* TelaAzulViewController.swift */; };
+		C53B95462A52F51900E1C19F /* TelaVerdeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95452A52F51900E1C19F /* TelaVerdeView.swift */; };
+		C53B95482A52F53600E1C19F /* TelaVerdeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95472A52F53600E1C19F /* TelaVerdeViewController.swift */; };
+		C53B954A2A52F54900E1C19F /* TelaVermelhaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95492A52F54900E1C19F /* TelaVermelhaView.swift */; };
+		C53B954C2A52F56600E1C19F /* TelaVermelhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B954B2A52F56600E1C19F /* TelaVermelhaViewController.swift */; };
+		C53B954F2A52FA6D00E1C19F /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B954E2A52FA6D00E1C19F /* ButtonDefault.swift */; };
+		C53B95522A52FABD00E1C19F /* UIcolor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95512A52FABD00E1C19F /* UIcolor+.swift */; };
+		C53B95542A52FB2800E1C19F /* ViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B95532A52FB2800E1C19F /* ViewDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		C53B95272A52F24300E1C19F /* TelaSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelaSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53B952B2A52F24300E1C19F /* TelaSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaSwiftUITests.swift; sourceTree = "<group>"; };
 		C53B952D2A52F24300E1C19F /* TelaSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C53B95412A52F4ED00E1C19F /* TelaAzulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAzulView.swift; sourceTree = "<group>"; };
+		C53B95432A52F50700E1C19F /* TelaAzulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAzulViewController.swift; sourceTree = "<group>"; };
+		C53B95452A52F51900E1C19F /* TelaVerdeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVerdeView.swift; sourceTree = "<group>"; };
+		C53B95472A52F53600E1C19F /* TelaVerdeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVerdeViewController.swift; sourceTree = "<group>"; };
+		C53B95492A52F54900E1C19F /* TelaVermelhaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVermelhaView.swift; sourceTree = "<group>"; };
+		C53B954B2A52F56600E1C19F /* TelaVermelhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVermelhaViewController.swift; sourceTree = "<group>"; };
+		C53B954E2A52FA6D00E1C19F /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		C53B95512A52FABD00E1C19F /* UIcolor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor+.swift"; sourceTree = "<group>"; };
+		C53B95532A52FB2800E1C19F /* ViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +119,8 @@
 		C53B95062A52F23F00E1C19F /* TelaSwift */ = {
 			isa = PBXGroup;
 			children = (
-				C53B95072A52F23F00E1C19F /* AppDelegate.swift */,
-				C53B95092A52F23F00E1C19F /* SceneDelegate.swift */,
-				C53B950B2A52F23F00E1C19F /* ViewController.swift */,
-				C53B950D2A52F23F00E1C19F /* Main.storyboard */,
-				C53B95132A52F24300E1C19F /* Assets.xcassets */,
-				C53B95152A52F24300E1C19F /* LaunchScreen.storyboard */,
-				C53B95182A52F24300E1C19F /* Info.plist */,
-				C53B95102A52F23F00E1C19F /* TelaSwift.xcdatamodeld */,
+				C53B953B2A52F40B00E1C19F /* Source */,
+				C53B953A2A52F3E900E1C19F /* Resourse */,
 			);
 			path = TelaSwift;
 			sourceTree = "<group>";
@@ -128,6 +140,93 @@
 				C53B952D2A52F24300E1C19F /* TelaSwiftUITestsLaunchTests.swift */,
 			);
 			path = TelaSwiftUITests;
+			sourceTree = "<group>";
+		};
+		C53B953A2A52F3E900E1C19F /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				C53B95072A52F23F00E1C19F /* AppDelegate.swift */,
+				C53B95092A52F23F00E1C19F /* SceneDelegate.swift */,
+				C53B950B2A52F23F00E1C19F /* ViewController.swift */,
+				C53B950D2A52F23F00E1C19F /* Main.storyboard */,
+				C53B95132A52F24300E1C19F /* Assets.xcassets */,
+				C53B95152A52F24300E1C19F /* LaunchScreen.storyboard */,
+				C53B95182A52F24300E1C19F /* Info.plist */,
+				C53B95102A52F23F00E1C19F /* TelaSwift.xcdatamodeld */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		C53B953B2A52F40B00E1C19F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C53B95502A52FA9D00E1C19F /* Extensions */,
+				C53B954D2A52FA4D00E1C19F /* Infraestructure */,
+				C53B953C2A52F43E00E1C19F /* Controller */,
+				C53B953D2A52F44F00E1C19F /* Coordinator */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C53B953C2A52F43E00E1C19F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C53B95402A52F4A800E1C19F /* TelaVermelha */,
+				C53B953F2A52F49300E1C19F /* TelaVerde */,
+				C53B953E2A52F47F00E1C19F /* TelaAzul */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C53B953D2A52F44F00E1C19F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C53B953E2A52F47F00E1C19F /* TelaAzul */ = {
+			isa = PBXGroup;
+			children = (
+				C53B95412A52F4ED00E1C19F /* TelaAzulView.swift */,
+				C53B95432A52F50700E1C19F /* TelaAzulViewController.swift */,
+			);
+			path = TelaAzul;
+			sourceTree = "<group>";
+		};
+		C53B953F2A52F49300E1C19F /* TelaVerde */ = {
+			isa = PBXGroup;
+			children = (
+				C53B95452A52F51900E1C19F /* TelaVerdeView.swift */,
+				C53B95472A52F53600E1C19F /* TelaVerdeViewController.swift */,
+			);
+			path = TelaVerde;
+			sourceTree = "<group>";
+		};
+		C53B95402A52F4A800E1C19F /* TelaVermelha */ = {
+			isa = PBXGroup;
+			children = (
+				C53B95492A52F54900E1C19F /* TelaVermelhaView.swift */,
+				C53B954B2A52F56600E1C19F /* TelaVermelhaViewController.swift */,
+			);
+			path = TelaVermelha;
+			sourceTree = "<group>";
+		};
+		C53B954D2A52FA4D00E1C19F /* Infraestructure */ = {
+			isa = PBXGroup;
+			children = (
+				C53B954E2A52FA6D00E1C19F /* ButtonDefault.swift */,
+				C53B95532A52FB2800E1C19F /* ViewDefault.swift */,
+			);
+			path = Infraestructure;
+			sourceTree = "<group>";
+		};
+		C53B95502A52FA9D00E1C19F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C53B95512A52FABD00E1C19F /* UIcolor+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +361,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C53B950C2A52F23F00E1C19F /* ViewController.swift in Sources */,
+				C53B95522A52FABD00E1C19F /* UIcolor+.swift in Sources */,
+				C53B954A2A52F54900E1C19F /* TelaVermelhaView.swift in Sources */,
 				C53B95122A52F23F00E1C19F /* TelaSwift.xcdatamodeld in Sources */,
+				C53B954F2A52FA6D00E1C19F /* ButtonDefault.swift in Sources */,
+				C53B95442A52F50700E1C19F /* TelaAzulViewController.swift in Sources */,
+				C53B95542A52FB2800E1C19F /* ViewDefault.swift in Sources */,
+				C53B95482A52F53600E1C19F /* TelaVerdeViewController.swift in Sources */,
 				C53B95082A52F23F00E1C19F /* AppDelegate.swift in Sources */,
+				C53B954C2A52F56600E1C19F /* TelaVermelhaViewController.swift in Sources */,
+				C53B95422A52F4ED00E1C19F /* TelaAzulView.swift in Sources */,
 				C53B950A2A52F23F00E1C19F /* SceneDelegate.swift in Sources */,
+				C53B95462A52F51900E1C19F /* TelaVerdeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
