@@ -37,17 +37,18 @@ class TelaVermelhaView: UIView {
             
             NSLayoutConstraint.activate([
 
-                
                 buttonTelaAzul.widthAnchor.constraint(equalToConstant: 374),
                 buttonTelaAzul.heightAnchor.constraint(equalToConstant: 60),
+                buttonTelaAzul.topAnchor.constraint(equalTo: self.topAnchor, constant: 420),
                 buttonTelaAzul.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
                 buttonTelaAzul.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16),
                 
                 buttonTelaVerde.widthAnchor.constraint(equalToConstant: 374),
                 buttonTelaVerde.heightAnchor.constraint(equalToConstant: 60),
-                buttonTelaVerde.topAnchor.constraint(equalTo: buttonTelaAzul.bottomAnchor, constant: 25),
+                buttonTelaVerde.topAnchor.constraint(equalTo: self.topAnchor, constant: 440),
                 buttonTelaVerde.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
                 buttonTelaVerde.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16),
+
 
             
             ])

@@ -48,7 +48,7 @@ class TelaVerdeView:UIView {
             
             buttonTelaVermelha.widthAnchor.constraint(equalToConstant: 374),
             buttonTelaVermelha.heightAnchor.constraint(equalToConstant: 60),
-            buttonTelaVermelha.topAnchor.constraint(equalTo: buttonTelaAzul.bottomAnchor, constant: 25),
+            buttonTelaVermelha.topAnchor.constraint(equalTo: self.topAnchor, constant: 440),
             buttonTelaVermelha.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
             buttonTelaVermelha.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16),
 
