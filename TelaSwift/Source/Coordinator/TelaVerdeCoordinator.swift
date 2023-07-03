@@ -20,11 +20,11 @@ class TelaVerdeCoordinator: Coordinator {
          let viewController = TelaVerdeViewController()
             self.navigationController.pushViewController(viewController, animated: true)
         
-        viewController.onTelaVerdeTap = {
+        viewController.onTelaAzulTap = {
             self.gotoVerde()
         }
         
-        viewController.onTelaVermelhoTap = {
+        viewController.onTelaVermelhaTap = {
             self.gotoVermelho()
         }
 
@@ -32,8 +32,9 @@ class TelaVerdeCoordinator: Coordinator {
 
   //função que chama a registerView
   func  gotoVerde() {
-      
-      
       self.navigationController.popViewController(animated: true)
   }
+    func  gotoVermelha() {
+        self.navigationController.popViewController(animated: true)
+    }
 }
